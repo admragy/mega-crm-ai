@@ -1,0 +1,11 @@
+app = "mega-crm-bot"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  TELEGRAM_TOKEN = "حط_هنا_في_Dashboard"
+  GEMINI_API_KEY = "حط_هنا"
+
+[[services]]
+  internal_port = 8080  # مش لازم للبوت polling
